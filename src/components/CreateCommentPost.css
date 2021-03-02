@@ -1,0 +1,36 @@
+.post__CreateCommentContainer {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post__CreateCommentForm {
+  display: flex;
+  width: 100%;
+}
+
+.post__CreateCommentForm > textarea {
+  width: 80%;
+  border: 1px solid #bdd5ea;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.post__CreateCommentForm > input {
+  width: 20%;
+  border: none;
+  margin-right: 15px;
+  background-color: #577399;
+  font-weight: bolder;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.post__CreateCommentForm > input:hover {
+  color: #577399;
+  background-color: #f7f7ff;
+}

@@ -1,0 +1,31 @@
+.comment__container {
+  border: 2px solid #dae6f5;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.comment__by {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: -25px;
+}
+
+.comment__by > time {
+  color: #495867;
+  font-size: 0.75rem;
+}
+
+.comment__by > p {
+  color: #495867;
+  font-size: 0.8rem;
+}
+
+.comment__by > p > strong {
+  color: black;
+}
+
+.comment__container > p {
+  font-size: 0.9rem;
+}

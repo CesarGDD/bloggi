@@ -1,0 +1,45 @@
+.post__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post__card {
+  background-color: #f7f7ff;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.post__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post__title {
+  text-align: center;
+}
+
+.post__body {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #dae6f5;
+  margin-bottom: 10px;
+}
+
+.post__date {
+  font-size: small;
+  text-align: end;
+  color: #495867;
+}
+
+.post__comment {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}

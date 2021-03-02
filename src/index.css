@@ -1,13 +1,69 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "RocknRoll One", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Form__formSection___1PPvW {
+  width: 60%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7ff;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 200px;
+}
+
+.Section__sectionHeader___2djyg {
+  margin-bottom: 10px;
+}
+
+.Section__sectionBody___ihqqd {
+  border: 2px solid #dae6f5;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.Input__input___3e_bf {
+  width: 90%;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Anchor__a___1_Iz8 {
+  color: gray;
+  cursor: pointer;
+}
+
+.Nav__navRight___1QG2J > span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: aliceblue;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.Button__button___vS7Mv {
+  border: none;
+  border-radius: 10px;
+  background-color: #eb7a1c;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bolder;
+  padding: 5px;
+  margin-right: 10px;
+  transition: ease-in-out 0.3s;
+}
+
+.Button__button___vS7Mv:hover {
+  transform: scale(1.1);
+}
+
+.Nav__navItem___1LtFQ {
+  margin-right: 10px;
 }

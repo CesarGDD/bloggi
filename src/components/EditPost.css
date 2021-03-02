@@ -1,0 +1,76 @@
+.post__editButtonContainer {
+  display: flex;
+  width: 100%;
+}
+
+.post__editButton {
+  width: 100%;
+  margin-right: 5px;
+  background-color: #eb7a1c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  transition: ease-in-out 0.4s;
+}
+
+.post__editButton:hover {
+  background-color: #f7f7ff;
+  color: #eb7a1c;
+}
+
+.modal__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__closeButton {
+  background-color: #f15032;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 50%;
+  align-self: flex-end;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__formTitle {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+
+.modal__formBody {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+
+.modal__formSubmitButton {
+  background-color: #577399;
+  color: #fff;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.modal__formSubmitButton:hover {
+  background-color: #dae6f5;
+  color: #577399;
+}

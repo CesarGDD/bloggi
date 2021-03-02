@@ -1,0 +1,32 @@
+.post__likeTrue {
+  margin-left: 20px;
+  color: #dd1c1a;
+  font-size: 1.5rem;
+}
+.post__likeFalse {
+  margin-left: 20px;
+  color: lightgray;
+  font-size: 1.5rem;
+}
+
+.post__numberLikes {
+  font-size: 0.75rem;
+  color: black;
+}
+
+.post__likeUser {
+  font-size: 0.65rem;
+  color: black;
+  margin-left: 10px;
+}
+
+.post__likeError {
+  color: #dd1c1a;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.post__likeIcon {
+  cursor: pointer;
+  font-size: 2rem;
+}
